@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Финансы — это просто</title>
+  <meta name="description" content="Простой и понятный сайт о деньгах: как копить, куда вкладывать и как зарабатывать. Всё о финансах простыми словами.">
+  <meta name="keywords" content="финансы это просто, финансы, деньги, инвестиции, бюджет, Казахстан">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    :root{--accent:#1a73e8;--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Arial,sans-serif;background:var(--bg);color:#0f172a;line-height:1.5}
+    header{background:linear-gradient(90deg,var(--accent),#3563ff);color:white;padding:28px 16px;text-align:center}
+    header h1{margin:0;font-size:28px;font-weight:800}
+    header p{margin:6px 0 0;opacity:0.95;font-size:15px}
+    nav{display:flex;justify-content:center;gap:12px;padding:12px;background:#0b1220}
+    nav a{color:white;text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600}
+    .wrap{max-width:1000px;margin:20px auto;padding:0 16px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(10,20,40,0.06)}
+    .hero{display:flex;gap:18px;align-items:center}
+    .hero .left{flex:1}
+    .hero h2{margin:0 0 8px;font-size:22px}
+    .btn{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    .article-list{display:flex;flex-direction:column;gap:12px}
+    .article{padding:12px;border-radius:10px;border:1px solid #eef2ff}
+    .article h3{margin:0 0 6px}
+    .small{color:var(--muted);font-size:13px}
+    aside .widget{margin-bottom:14px}
+    footer{margin-top:24px;padding:20px;text-align:center;color:var(--muted)}
+    form input,form button{padding:10px;border-radius:8px;border:1px solid #e6eefc}
+    form{display:flex;gap:8px}
+    .articles-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .article-img{width:100%;height:auto;margin-bottom:8px;border-radius:8px}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.hero{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.svg" alt="Финансы — это просто" style="max-width:250px;margin-bottom:12px">
+    <h1>Финансы — это просто</h1>
+    <p>Учись управлять деньгами легко: копить, инвестировать и зарабатывать</p>
+  </header>
+
+  <nav>
+    <a href="#home" data-link>Главная</a>
+    <a href="#articles" data-link>Статьи</a>
+    <a href="#tools" data-link>Инструменты</a>
+    <a href="#about" data-link>О нас</a>
+    <a href="#contact" data-link>Контакты</a>
+  </nav>
+
+  <main class="wrap">
+
+    <section id="home" class="grid" data-page>
+      <section class="card">
+        <div class="hero">
+          <div class="left">
+            <h2>Финансы становятся простыми — шаг за шагом</h2>
+            <p class="small">Короткие инструкции и реальные примеры: как откладывать, где хранить деньги и как начинать инвестировать без страха.</p>
+            <p style="margin-top:12px"><a class="btn" href="#articles" data-link>Читать статьи</a></p>
+          </div>
+          <div style="width:220px; text-align:center">
+            <img src="article1.svg" alt="График сбережений" class="article-img">
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="articles" class="card" data-page style="display:none">
+      <h2>Статьи: Финансы — это просто</h2>
+      <div class="articles-grid" style="margin-top:12px">
+
+        <article class="card">
+          <img src="article1.svg" alt="Откладывать деньги" class="article-img">
+          <h3>1. Как начать откладывать деньги с нуля</h3>
+          <p class="small">Пошаговый план: анализ доходов, цели, правило 50/30/20, автоматизация сбережений, резерв и минимизация импульсивных трат.</p>
+        </article>
+
+        <article class="card">
+          <img src="article2.svg" alt="Ошибки финансов" class="article-img">
+          <h3>2. 5 ошибок, которые мешают стать финансово свободным</h3>
+          <p class="small">Импульсивные покупки, кредиты без контроля, отсутствие целей, игнорирование бюджета и отсутствие резервов — как исправить.</p>
+        </article>
+
+        <article class="card">
+          <img src="article3.svg" alt="Инвестиции небольшие суммы" class="article-img">
+          <h3>3. Куда инвестировать небольшие суммы</h3>
+          <p class="small">ETF, депозит, облигации, индексные фонды — безопасные варианты для новичка с небольшим капиталом.</p>
+        </article>
+
+        <article class="card">
+          <img src="article4.svg" alt="Сложный процент" class="article-img">
+          <h3>4. Сложный процент и как он работает</h3>
+          <p class="small">Примеры, как проценты на проценты увеличивают капитал, почему долгосрочные вложения растут быстрее.</p>
+        </article>
+
+        <article class="card">
+          <img src="article5.svg" alt="Бюджет за 10 минут" class="article-img">
+          <h3>5. Как составить личный бюджет за 10 минут</h3>
+          <p class="small">Шаблон: доходы, обязательные расходы, сбережения. Быстрый способ понять, куда уходят деньги и что изменить.</p>
+        </article>
+
+        <article class="card">
+          <img src="article1.svg" alt="Жизнь от зарплаты до зарплаты" class="article-img">
+          <h3>6. Как перестать жить от зарплаты до зарплаты</h3>
+          <p class="small">Создание резервного фонда, распределение доходов и дисциплина — ключ к финансовой стабильности.</p>
+        </article>
+
+        <article class="card">
+          <img src="article3.svg" alt="Выбор вклада" class="article-img">
+          <h3>7. Как выбрать вклад или накопительный счет</h3>
+          <p class="small">Критерии выбора: ставка, капитализация, комиссии, доступ к деньгам, надежность банка.</p>
+        </article>
+
+        <article class="card">
+          <img src="article4.svg" alt="Инвестиции новичок" class="article-img">
+          <h3>8. Инвестиции для новичка: пошаговый старт</h3>
+          <p class="small">Открытие брокерского счёта, формирование простого портфеля, управление рисками без стресса и сложной теории.</p>
+        </article>
+
+      </div>
+      <p style="margin-top:14px"><a class="btn" href="#home" data-link>Назад</a></p>
+    </section>
+
+    <footer style="margin-top:18px;text-align:center;color:var(--muted)">
+      © 2025 Финансы — это просто
+    </footer>
+  </main>
+
+  <script>
+    document.querySelectorAll('[data-link]').forEach(a=>a.addEventListener('click',function(e){
+      e.preventDefault(); const href=this.getAttribute('href')||this.dataset.href; const name=(href||'#home').replace('#',''); navigate(name);
+    }));
+    function navigate(name){
+      document.querySelectorAll('[data-page]').forEach(el=>el.style.display='none');
+      const el=document.getElementById(name)||document.querySelector('[data-page]');
+      if(el) el.style.display='block';
+      window.location.hash = name;
+    }
+    navigate(location.hash.replace('#','')||'home');
+  </script>
+</body>
+</html>

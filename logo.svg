@@ -1,0 +1,6 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="50" rx="12" fill="#1a73e8"/>
+  <text x="100" y="32" font-family="Arial, sans-serif" font-size="18" fill="white" font-weight="bold" text-anchor="middle">
+    Финансы — это просто
+  </text>
+</svg>
